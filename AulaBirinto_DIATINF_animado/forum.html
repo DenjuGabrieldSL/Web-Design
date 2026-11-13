@@ -1,5 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Fórum | AulaBirinto</title><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/community.css"><script src="js/community.js"></script></head><body><header class="topbar"><div class="top-inner"><a class="brand" href="index.html"><img src="images/logo.png" alt="AulaBirinto — encontre sua sala"></a><div class="user-chip"></div></div></header>
-<nav aria-label="Navegação principal"><div class="nav-inner"><a href="index.html">Início</a><div class="dropdown"><a class="dropdown-label" href="cadastro1.html">Cadastros ▾</a><div class="submenu"><a href="cadastro1.html">Salas de aula</a><a href="cadastro2.html">Turmas</a><a href="cadastro3.html">Avisos de mudança</a></div></div><a href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a></div></nav><main class="container"><div class="community-heading"><div><div class="eyebrow">Comunidade · IFRN CNAT</div><h1 class="page-title">Fórum do campus</h1><p class="page-intro">Uma dúvida sua pode ser a dúvida de toda a turma. Vamos conversar?</p></div><a class="btn" href="#topic-form">+ Novo tópico</a></div>
-<p id="feedback" role="status" aria-live="polite"></p><div class="community-grid"><section aria-label="Tópicos"><div class="filters"><input id="search" type="search" aria-label="Buscar tópicos" placeholder="Buscar uma conversa…"><select id="filter" aria-label="Filtrar categoria"><option value="">Todas as categorias</option><option>Dúvidas</option><option>Salas e turmas</option><option>Avisos</option><option>Vida no campus</option></select></div><div id="topics"></div><section id="topic-detail" class="panel" aria-label="Conversa selecionada" hidden></section></section>
-<aside class="panel"><h2>Comece uma conversa</h2><p class="muted">Compartilhe dúvidas, descobertas e avisos com a comunidade.</p><form id="topic-form" class="form-grid"><label>Título<input name="title" required maxlength="120" placeholder="Sobre o que você quer conversar?"></label><label>Categoria<select name="category"><option>Dúvidas</option><option>Salas e turmas</option><option>Avisos</option><option>Vida no campus</option></select></label><label>Mensagem<textarea name="body" required maxlength="4000" placeholder="Conte um pouco mais…"></textarea></label><button class="btn" type="submit">Publicar tópico</button></form><p class="local-note">Os tópicos ficam neste navegador por enquanto. Seja gentil e evite compartilhar dados pessoais.</p></aside></div></main><footer><div class="footer-inner"><strong>AULABIRINTO</strong><span>Projeto acadêmico · IFRN CNAT</span><span>Comunidade do campus</span></div></footer></body></html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fórum | AulaBirinto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/community.css">
+    <script src="js/community.js"></script>
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="top-inner"><a class="brand" href="index.html"><img src="images/logo.png"
+                    alt="AulaBirinto — encontre sua sala"></a>
+            <div class="user-chip"></div>
+        </div>
+    </header>
+    <nav aria-label="Navegação principal">
+        <div class="nav-inner"><a href="index.html">Início</a>
+            <div class="dropdown"><a class="dropdown-label" href="cadastro1.html">Cadastros ▾</a>
+                <div class="submenu"><a href="cadastro1.html">Salas de aula</a><a href="cadastro2.html">Turmas</a><a
+                        href="cadastro3.html">Avisos de mudança</a></div>
+            </div><a href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="community-heading">
+            <div>
+                <div class="eyebrow">Comunidade · IFRN CNAT</div>
+                <h1 class="page-title">Fórum do campus</h1>
+                <p class="page-intro">Uma dúvida sua pode ser a dúvida de toda a turma. Vamos conversar?</p>
+            </div><a class="btn" href="#topic-form">+ Novo tópico</a>
+        </div>
+        <p id="feedback" role="status" aria-live="polite"></p>
+        <div class="community-grid">
+            <section aria-label="Tópicos">
+                <div class="filters"><input id="search" type="search" aria-label="Buscar tópicos"
+                        placeholder="Buscar uma conversa…"><select id="filter" aria-label="Filtrar categoria">
+                        <option value="">Todas as categorias</option>
+                        <option>Dúvidas</option>
+                        <option>Salas e turmas</option>
+                        <option>Avisos</option>
+                        <option>Vida no campus</option>
+                    </select></div>
+                <div id="topics"></div>
+                <section id="topic-detail" class="panel" aria-label="Conversa selecionada" hidden></section>
+            </section>
+            <aside class="panel">
+                <h2>Comece uma conversa</h2>
+                <p class="muted">Compartilhe dúvidas, descobertas e avisos com a comunidade.</p>
+                <form id="topic-form" class="form-grid"><label>Título<input name="title" required maxlength="120"
+                            placeholder="Sobre o que você quer conversar?"></label><label>Categoria<select
+                            name="category">
+                            <option>Dúvidas</option>
+                            <option>Salas e turmas</option>
+                            <option>Avisos</option>
+                            <option>Vida no campus</option>
+                        </select></label><label>Mensagem<textarea name="body" required maxlength="4000"
+                            placeholder="Conte um pouco mais…"></textarea></label><button class="btn"
+                        type="submit">Publicar tópico</button></form>
+                <p class="local-note">Os tópicos ficam neste navegador por enquanto. Seja gentil e evite compartilhar
+                    dados pessoais.</p>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-inner"><strong>AULABIRINTO</strong><span>Projeto acadêmico · IFRN CNAT</span><span>Comunidade
+                do campus</span></div>
+    </footer>
+</body>
+
+</html>

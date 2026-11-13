@@ -1,2 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Criar conta | AulaBirinto</title><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/community.css"><script src="js/community.js"></script></head><body><main class="auth-layout"><section class="auth-story"><span class="auth-brand">AULABIRINTO</span><div class="eyebrow">IFRN · Campus Natal-Central</div><h1>Seu campus.<br>Sua turma.<br>Seu caminho.</h1><p>Encontre sua sala, acompanhe avisos e faça parte das conversas que conectam o campus.</p></section><section class="auth-main"><div class="auth-card"><div class="auth-intro"><div class="eyebrow">Bem-vindo à comunidade</div><h2>Faça parte do campus</h2><p class="muted">Crie sua conta para começar.</p></div><nav class="auth-tabs" aria-label="Acesso à conta"><a href="login.html" >Entrar</a><a href="cadastro.html" aria-current="page">Criar conta</a></nav><form id="auth-form" data-mode="register" class="form-grid"><label>Seu nome<input name="name" autocomplete="name" required maxlength="80" placeholder="Como podemos chamar você?"></label><label>E-mail<input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="voce@exemplo.com"></label><label>Senha<input name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required placeholder="Pelo menos 8 caracteres"></label><label>Confirme sua senha<input type="password" name="confirm" autocomplete="new-password" required minlength="8" maxlength="128"></label><p id="feedback" role="alert" aria-live="polite"></p><button type="submit" class="btn">Criar conta</button></form><p class="local-note">Protótipo local: use uma senha de teste. Sua conta fica somente neste navegador. O acesso real será integrado ao banco de dados.</p></div></section></main></body></html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Criar conta | AulaBirinto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/community.css">
+    <script src="js/community.js"></script>
+</head>
+
+<body>
+    <main class="auth-layout">
+        <section class="auth-story"><span class="auth-brand">AULABIRINTO</span>
+            <div class="eyebrow">IFRN · Campus Natal-Central</div>
+            <h1>Seu campus.<br>Sua turma.<br>Seu caminho.</h1>
+            <p>Encontre sua sala, acompanhe avisos e faça parte das conversas que conectam o campus.</p>
+        </section>
+        <section class="auth-main">
+            <div class="auth-card">
+                <div class="auth-intro">
+                    <div class="eyebrow">Bem-vindo à comunidade</div>
+                    <h2>Faça parte do campus</h2>
+                    <p class="muted">Crie sua conta para começar.</p>
+                </div>
+                <nav class="auth-tabs" aria-label="Acesso à conta"><a href="login.html">Entrar</a><a
+                        href="cadastro.html" aria-current="page">Criar conta</a></nav>
+                <form id="auth-form" data-mode="register" class="form-grid"><label>Seu nome<input name="name"
+                            autocomplete="name" required maxlength="80"
+                            placeholder="Como podemos chamar você?"></label><label>E-mail<input name="email"
+                            type="email" autocomplete="email" required maxlength="254"
+                            placeholder="voce@exemplo.com"></label><label>Senha<input name="password" type="password"
+                            autocomplete="new-password" minlength="8" maxlength="128" required
+                            placeholder="Pelo menos 8 caracteres"></label><label>Confirme sua senha<input
+                            type="password" name="confirm" autocomplete="new-password" required minlength="8"
+                            maxlength="128"></label>
+                    <p id="feedback" role="alert" aria-live="polite"></p><button type="submit" class="btn">Criar
+                        conta</button>
+                </form>
+                <p class="local-note">Protótipo local: use uma senha de teste. Sua conta fica somente neste navegador. O
+                    acesso real será integrado ao banco de dados.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

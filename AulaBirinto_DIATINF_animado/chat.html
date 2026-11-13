@@ -1,3 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Chat | AulaBirinto</title><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/community.css"><script src="js/community.js"></script></head><body><header class="topbar"><div class="top-inner"><a class="brand" href="index.html"><img src="images/logo.png" alt="AulaBirinto — encontre sua sala"></a><div class="user-chip"></div></div></header>
-<nav aria-label="Navegação principal"><div class="nav-inner"><a href="index.html">Início</a><div class="dropdown"><a class="dropdown-label" href="cadastro1.html">Cadastros ▾</a><div class="submenu"><a href="cadastro1.html">Salas de aula</a><a href="cadastro2.html">Turmas</a><a href="cadastro3.html">Avisos de mudança</a></div></div><a href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a></div></nav><main class="container"><div class="community-heading"><div><div class="eyebrow">Comunidade · IFRN CNAT</div><h1 class="page-title">Chat do campus</h1><p class="page-intro">Um espaço para trocar ideias e tirar dúvidas rápidas.</p></div></div><section class="panel chat-shell" aria-label="Chat"><div class="chat-bar"><label for="room"><strong>Sala de conversa</strong></label><select id="room" class="room-select"><option value="geral"># Geral</option><option value="diatinf"># DIATINF</option><option value="salas"># Salas e mudanças</option></select></div><div id="conversation" class="chat-log" role="log" aria-label="Mensagens da sala" aria-live="polite" aria-relevant="additions text"></div><form id="message-form" class="form-grid message-compose"><label>Sua mensagem<textarea name="body" required maxlength="2000" placeholder="Escreva uma mensagem…"></textarea></label><button class="btn" type="submit">Enviar →</button></form><p id="feedback" role="status"></p><p class="local-note">Modo local: mensagens salvas neste navegador e sincronizadas entre suas abas. A conexão com outras pessoas será ativada com o servidor.</p></section></main><footer><div class="footer-inner"><strong>AULABIRINTO</strong><span>Projeto acadêmico · IFRN CNAT</span><span>Comunidade do campus</span></div></footer></body></html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat | AulaBirinto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/community.css">
+    <script src="js/community.js"></script>
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="top-inner"><a class="brand" href="index.html"><img src="images/logo.png"
+                    alt="AulaBirinto — encontre sua sala"></a>
+            <div class="user-chip"></div>
+        </div>
+    </header>
+    <nav aria-label="Navegação principal">
+        <div class="nav-inner"><a href="index.html">Início</a>
+            <div class="dropdown"><a class="dropdown-label" href="cadastro1.html">Cadastros ▾</a>
+                <div class="submenu"><a href="cadastro1.html">Salas de aula</a><a href="cadastro2.html">Turmas</a><a
+                        href="cadastro3.html">Avisos de mudança</a></div>
+            </div><a href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="community-heading">
+            <div>
+                <div class="eyebrow">Comunidade · IFRN CNAT</div>
+                <h1 class="page-title">Chat do campus</h1>
+                <p class="page-intro">Um espaço para trocar ideias e tirar dúvidas rápidas.</p>
+            </div>
+        </div>
+        <section class="panel chat-shell" aria-label="Chat">
+            <div class="chat-bar"><label for="room"><strong>Sala de conversa</strong></label><select id="room"
+                    class="room-select">
+                    <option value="geral"># Geral</option>
+                    <option value="diatinf"># DIATINF</option>
+                    <option value="salas"># Salas e mudanças</option>
+                </select></div>
+            <div id="conversation" class="chat-log" role="log" aria-label="Mensagens da sala" aria-live="polite"
+                aria-relevant="additions text"></div>
+            <form id="message-form" class="form-grid message-compose"><label>Sua mensagem<textarea name="body" required
+                        maxlength="2000" placeholder="Escreva uma mensagem…"></textarea></label><button class="btn"
+                    type="submit">Enviar →</button></form>
+            <p id="feedback" role="status"></p>
+            <p class="local-note">Modo local: mensagens salvas neste navegador e sincronizadas entre suas abas. A
+                conexão com outras pessoas será ativada com o servidor.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner"><strong>AULABIRINTO</strong><span>Projeto acadêmico · IFRN CNAT</span><span>Comunidade
+                do campus</span></div>
+    </footer>
+</body>
+
+</html>
